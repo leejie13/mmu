@@ -26,4 +26,4 @@ for fact in env.facts():
   if fact.template.name == 'result':
     results.append (fact['name']) #why assert the fact?
 
-st.write(results[0], "output")
+st.write(results[0],"output")
